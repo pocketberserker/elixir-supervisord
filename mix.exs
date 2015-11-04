@@ -30,6 +30,6 @@ defmodule Supervisord.Mixfile do
     [files: ~w(lib mix.exs README.md LICENSE),
      contributors: ["pocketberserker"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/pocketberserker/elixie_supervisord"}]
+     links: %{"GitHub" => "https://github.com/pocketberserker/elixir-supervisord"}]
   end
 end
