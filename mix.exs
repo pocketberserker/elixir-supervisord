@@ -28,7 +28,7 @@ defmodule Supervisord.Mixfile do
 
   defp package do
     [files: ~w(lib mix.exs README.md LICENSE),
-     contributors: ["pocketberserker"],
+     maintainers: ["pocketberserker"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/pocketberserker/elixir-supervisord"}]
   end
