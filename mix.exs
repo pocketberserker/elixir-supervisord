@@ -7,7 +7,7 @@ defmodule Supervisord.Mixfile do
 
   def project do
     [app: :supervisord,
-     version: "0.0.1",
+     version: "0.1.0",
      elixir: "~> 1.1",
      name: "Supervisord",
      description: @description,
