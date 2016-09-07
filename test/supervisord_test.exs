@@ -10,7 +10,7 @@ defmodule SupervisordTest do
 
   test "start process group" do
     res = %Supervisord.Options{base_url: @base_url}
-      |> Supervisord.start_process_group "test"
+      |> Supervisord.start_process_group("test")
     assert res == %XMLRPC.MethodResponse{}
   end
 end
