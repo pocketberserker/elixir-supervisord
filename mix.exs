@@ -8,7 +8,7 @@ defmodule Supervisord.Mixfile do
   def project do
     [app: :supervisord,
      version: "0.1.0",
-     elixir: "~> 1.1",
+     elixir: "~> 1.3",
      name: "Supervisord",
      description: @description,
      package: package,
@@ -21,9 +21,9 @@ defmodule Supervisord.Mixfile do
   end
 
   defp deps do
-    [{:erlsom, git: "https://github.com/willemdj/erlsom.git", tag: "v1.3.1"},
-     {:xmlrpc, "~> 0.9.1"},
-     {:httpoison, "~> 0.7.4"}]
+    [{:erlsom, github: "willemdj/erlsom"},
+     {:xmlrpc, "~> 1.0"},
+     {:httpoison, "~> 0.9"}]
   end
 
   defp package do
